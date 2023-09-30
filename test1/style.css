@@ -1,0 +1,235 @@
+*{
+    margin: 0;padding: 0; font-family: sans-serif; box-sizing: border-box;
+}
+.hed{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 86%;
+    padding: 18px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1 a{
+    color: orange;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav h1 a:hover{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 8px 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.nav ul li a:hover{
+    text-transform: capitalize;
+    color: #201548;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.detel{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.detel h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #212121
+}
+samp{
+    color: orange;
+}
+.detel p{
+    color: #555;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    margin-bottom: 32px;
+}
+.detel a{
+    border: solid 1px white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    width: 40%;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.detel a:hover{
+    color: orange;
+    background: #000;
+}
+.imag{
+    width: 30%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+.imag .color{
+    position: absolute;
+    right: -15px;
+}
+.imag img{
+    height: 100%;
+    position: absolute;
+    right:10%;
+    bottom: 0;
+    transform: translateX(-50);
+    transition: bottom 1s,left 1s;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+}
+.about h1{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    font-family: Arial;
+}
+.about p{
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    padding-left: 19%;
+    font-family: serif;
+    letter-spacing: 1px;
+    word-spacing:2px;
+    line-height: 150%;
+}
+.services{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: #eff4fd;
+    padding-bottom: 20px;
+}
+.container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.text{
+    position: absolute;
+    left: 40%;
+    top: 8%;
+    color: #000;
+    font-size: 50px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    position: absolute;
+    top: 25%;
+    left: auto;
+    right: auto;
+    width: 86%;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.card {
+    align-items:center;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.158) 0px 4px 20px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9px;
+    padding-right: 25px;
+    padding-bottom: 11px;
+    padding-left: 25px; 
+    margin-bottom: 0px;
+
+}
+.uiux{
+    display: inline-flex;
+    width: 50px;
+    border-radius: 25px;
+}
+.cards{
+    padding-left: 15%;
+}
+.contact{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: aliceblue;
+}
+.contact h3{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    z-index: 999;
+}
+form{
+    position: absolute;
+    width: 85%;
+    top: 7%;
+    right: 7.5%;
+    left: 7.5%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} 
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.containers {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
